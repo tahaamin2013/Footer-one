@@ -22,13 +22,21 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
+      .iconss {
+        display: flex;
+        margin-right: 150px;
+      }
       i {
         border: #e4c32c 1px solid;
+        height: 17px;
         padding: 10px;
-        margin-left: 9px;
+        margin-left: 10px;
       }
-      .fa-facebook {
-        margin-left: 410px;
+      .end-line {
+        margin-top: 50px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-between;
       }
 
       .h1 {
@@ -59,8 +67,9 @@
         display: flex;
       }
       .copy {
-        margin-top: 80px;
-        margin-left: 100px;
+        margin-top: 10px;
+        vertical-align: middle;
+        display: flex;
       }
 
       .company {
@@ -93,14 +102,18 @@
           margin-top: 20px;
           text-align: center;
         }
-        .icon {
-          margin-top: 20px;
-          margin-right: 10px;
-        }
 
-        .fa-facebook {
-          margin-left: 0px;
+        .end-line {
+          margin-top: 20px; 
+          margin-left: 1px;
+          flex-direction: column;
+          align-items: center;
         }
+      .iconss{
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+      }
       }
     </style>
   </head>
@@ -168,12 +181,14 @@
         <p class="copy">
           &copy; Taha Template 2017 All right reserved. Template By
           <span>Taha Amin</span>
+        </p>
+        <div class="iconss">
           <i class="fa fa-facebook icon"></i>
           <i class="fa fa-twitter icon"></i>
           <i class="fa fa-instagram icon"></i>
           <i class="fa fa-pinterest icon"></i>
           <i class="fa fa-google icon"></i>
-        </p>
+        </div>
       </div>
     </footer>
   </body>
